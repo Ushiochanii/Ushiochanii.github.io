@@ -1,0 +1,66 @@
+.nav {
+    overflow: hidden;
+}
+
+.sk {
+    position: absolute;
+    left: 190px;
+    top: 40px;
+    padding-left: 15px;
+    border-left: 1px solid #c81523;
+}
+
+.sk_list {
+    float: left;
+}
+
+
+/* .sk_list ul {
+    padding-left: 28px;
+} */
+
+.sk_list ul li {
+    float: left;
+}
+
+.sk_list ul li a {
+    display: block;
+    /* float: left; */
+    /* padding-right: 56px; */
+    line-height: 45px;
+    padding: 0 30px;
+    font-size: 16px;
+    /* height: 45px; */
+    font-weight: 700;
+    color: #000;
+}
+
+
+/* .sk_con ul {
+    padding-left: 3px;
+} */
+
+.sk_con {
+    float: left;
+}
+
+.sk_con ul li {
+    float: left;
+}
+
+.sk_con ul li a {
+    display: block;
+    /* float: left; */
+    /* padding-right: 56px; */
+    line-height: 49px;
+    padding: 0 20px;
+    font-size: 14px;
+    /* height: 45px; */
+    /* font-weight: 700;
+    color: #000; */
+}
+
+.sk_con ul li:last-child a::after {
+    content: "\e91e";
+    font-family: "icomoon";
+}
